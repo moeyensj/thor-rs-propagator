@@ -26,6 +26,4 @@ jobs:
       - name: Test
         run: cargo test --verbose
       - name: Package check (no publish)
-        # `cargo package` performs the same packaging + verification build;
-        # `publish --dry-run` refuses while the manifest carries publish = false.
         run: cargo package

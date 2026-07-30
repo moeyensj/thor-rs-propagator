@@ -11,9 +11,9 @@
 //! capabilities they lack with [`PropagatorError::Unsupported`] — loudly,
 //! never by silent substitution.
 
-pub mod api;
-pub mod error;
-pub mod types;
+mod api;
+mod error;
+mod types;
 
 pub use api::Propagator;
 pub use error::PropagatorError;

@@ -1,0 +1,20 @@
+[package]
+name = "thor-rs-propagator"
+version = "0.1.0"
+description = "The propagator contract for THOR: the trait and state/ephemeris types every dynamical backend implements"
+authors = ["Joachim Moeyens <moeyensj@uw.edu>"]
+edition = "2024"
+rust-version = "1.94.0"
+license = "BSD-3-Clause"
+# Two-key publish guard: delete this line + set CRATES_IO_PUBLISH_ENABLED to
+# publish. First link of the THOR publish chain (docs: thor crate_split_plan).
+publish = false
+repository = "https://github.com/moeyensj/thor-rs-propagator"
+documentation = "https://docs.rs/thor-rs-propagator"
+keywords = ["astronomy", "asteroids", "orbits", "propagation", "ephemeris"]
+categories = ["science", "aerospace"]
+exclude = [".github/", ".gitignore"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"

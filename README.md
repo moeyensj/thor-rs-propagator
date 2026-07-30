@@ -26,13 +26,6 @@ can live in their own crates and repositories without inheriting THOR.
 thor-rs-propagator = "0.1"
 ```
 
-Not yet on crates.io — until first publish, depend on the repository:
-
-```toml
-[dependencies]
-thor-rs-propagator = { git = "https://github.com/moeyensj/thor-rs-propagator.git", rev = "<pin>" }
-```
-
 ## What it provides
 
 - **`Propagator`** — six methods: `propagate` (states + optional STM/covariance

@@ -6,10 +6,9 @@ authors = ["Joachim Moeyens <moeyensj@uw.edu>"]
 edition = "2024"
 rust-version = "1.94.0"
 license = "BSD-3-Clause"
-# Two-key publish guard: delete this line + set CRATES_IO_PUBLISH_ENABLED to
-# publish. First link of the THOR publish chain (docs: thor crate_split_plan).
-publish = false
+homepage = "https://github.com/moeyensj/thor"
 repository = "https://github.com/moeyensj/thor-rs-propagator"
+readme = "README.md"
 documentation = "https://docs.rs/thor-rs-propagator"
 keywords = ["astronomy", "asteroids", "orbits", "propagation", "ephemeris"]
 categories = ["science", "aerospace"]
